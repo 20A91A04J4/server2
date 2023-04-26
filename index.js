@@ -7,7 +7,7 @@ const multer = require('multer');
 const cors = require('cors')
 
 
-mongoose.connect('mongodb+srv://20A91A04J4:9963987447@Ab@cluster0.ohdpzmp.mongodb.net/test', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb+srv://20A91A04J4:9963987447%40Ab@cluster0.ohdpzmp.mongodb.net/test', { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('Connected to MongoDB...'))
   .catch(err => console.error('Could not connect to MongoDB...', err));
 
